@@ -1,8 +1,0 @@
-The upwind scheme is designed to handle both positive and negative convection coefficients effectively. 
-Its fundamental idea is to adjust the discretization direction based on the sign of the convection coefficient. 
-When the convection coefficient is positive, the upwind scheme uses values from the upstream (or ‘upwind’) (i-1) direction
-side of the computational domain for discretization, similar to the backward scheme. Conversely, 
-when the convection coefficient is negative, it uses values from the downstream (or ‘downwind’) side(i+1), similar to the forward
-scheme.
-
-Backward difference scheme for discretization of the convection term is not effective for negative coefficients. 
